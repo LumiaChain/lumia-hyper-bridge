@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report incorrect or unexpected behaviour
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please describe what happened as precisely as you can.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Web application
+        - API
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: The shortest sequence of steps that shows the problem.
+    validations:
+      required: true
+
+  - type: input
+    id: when
+    attributes:
+      label: When you saw it
+      placeholder: "2026-09-07, around 14:00 UTC"
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Screenshots, browser and wallet used, transaction hashes — whatever helps.
