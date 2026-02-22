@@ -5,6 +5,16 @@ All notable changes to Lumia Bridge are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.02] - 2026-02-22
+
+_Self-hosted relaying, published as configuration_
+
+### Added
+
+- **deployment** — Deployment configuration and step-by-step documentation for running the validator and relayer that carry messages in and out of Lumia
+- **deployment** — Core configuration for the Lumia Beam and BNB Smart Chain test networks
+- **deployment** — Documentation of the paymaster setup covering how transfer fees are quoted and settled
+
 ## [2025.07] - 2025-07-07
 
 _Hardened delivery and an upstream sync_
