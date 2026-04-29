@@ -5,6 +5,18 @@ All notable changes to Lumia Bridge are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.04] - 2026-04-29
+
+_Static builds on the edge_
+
+### Changed
+
+- **app** — The interface ships as a static bundle served from an edge network, cutting load time and removing the runtime server
+
+### Security
+
+- **app** — Source maps are no longer published with the production build
+
 ## [2026.02] - 2026-02-22
 
 _Self-hosted relaying, published as configuration_
