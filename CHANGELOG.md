@@ -5,6 +5,18 @@ All notable changes to Lumia Bridge are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Entries before the first release were reconstructed from internal development history.
 
+## [2026.08] - 2026-08-12
+
+_Sign in with an Embark smart account_
+
+### Added
+
+- **app** — Transfers can be signed with an EmbarkAI smart account, so a bridge transfer no longer requires a browser extension wallet
+
+### Fixed
+
+- **app** — Header spacing corrected on small screens
+
 ## [2026.04] - 2026-04-29
 
 _Static builds on the edge_
