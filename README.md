@@ -6,6 +6,14 @@
   Lumia Bridge
 </h1>
 
+> [!NOTE]
+> **This repository is generated and contains no source code.**
+> It exists to publish the release history of Lumia Bridge. `CHANGELOG.md` is written by an
+> automated job from the private repositories the product is built in — edits made here by
+> hand are overwritten on the next run. Issues and discussions are read and answered; pull
+> requests against this repository are closed unfixed.
+> The code lives in the repositories linked under [Source code](#source-code).
+
 Moving assets in and out of Lumia. Two independent paths, each with its own trust model:
 
 | | |
