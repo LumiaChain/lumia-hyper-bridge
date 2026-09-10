@@ -84,7 +84,7 @@ documentation are ours.
 |---|---|
 | [hyper-bridge](https://github.com/LumiaChain/hyper-bridge) | The transfer interface behind bridge.lumia.org |
 | [hyperlane-contracts](https://github.com/LumiaChain/hyperlane-contracts) | Agent configuration, deployment and paymaster documentation |
-| [hyperlane-monorepo](https://github.com/hyperlane-xyz/hyperlane-monorepo) | Upstream Hyperlane. The validator and relayer images are built from a fork of it with no application changes |
+| [hyperlane-monorepo](https://github.com/LumiaChain/hyperlane-monorepo) | Our fork of the [upstream Hyperlane monorepo](https://github.com/hyperlane-xyz/hyperlane-monorepo), from which the validator and relayer images are built |
 
 ## Areas
 
