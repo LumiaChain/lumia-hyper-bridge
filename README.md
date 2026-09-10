@@ -56,6 +56,18 @@ Lumia runs its own Hyperlane validator and relayer for the routes above rather t
 on a hosted deployment. Ownership of the route and core contracts is reviewed on a recurring
 schedule against the expected configuration.
 
+## Source code
+
+The bridge is operated from these repositories. The application is a fork of Hyperlane's
+transfer interface with our changes on top; the agent configuration and deployment
+documentation are ours.
+
+| | |
+|---|---|
+| [hyper-bridge](https://github.com/LumiaChain/hyper-bridge) | The transfer interface behind bridge.lumia.org |
+| [contracts](https://github.com/LumiaChain/hyperlane-contracts) | Agent configuration, deployment and paymaster documentation |
+| [hyperlane-monorepo](https://github.com/hyperlane-xyz/hyperlane-monorepo) | Our fork of the Hyperlane monorepo, from which the validator and relayer images are built |
+
 ## Areas
 
 Release notes are labelled by the part of the bridge a change affects.
