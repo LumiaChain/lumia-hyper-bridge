@@ -55,14 +55,24 @@ and are verifiable on the [explorer](https://explorer.lumia.org).
 | Validator Announce | [`0x803d2A87429E20d4B52266bF97Ca1c7e4f4F5Dfa`](https://explorer.lumia.org/address/0x803d2A87429E20d4B52266bF97Ca1c7e4f4F5Dfa) |
 | Interchain Account Router | [`0x3C330D4A2e2b8443AFaB8E326E64ab4251B7Eae0`](https://explorer.lumia.org/address/0x3C330D4A2e2b8443AFaB8E326E64ab4251B7Eae0) |
 
+The Agglayer bridge, used for the canonical route to Ethereum, is deployed at the same
+address on both sides:
+
+| Contract | Address |
+|---|---|
+| Agglayer bridge | [`0x2a3DD3EB832aF982ec71669E178424b10Dca2EDe`](https://explorer.lumia.org/address/0x2a3DD3EB832aF982ec71669E178424b10Dca2EDe) |
+
 Inbound security modules on the connected chains are static and ownerless by design; their
 addresses are in the registry alongside the routes above.
 
 ## How it is operated
 
-Lumia runs its own Hyperlane validator and relayer for the routes above rather than relying
-on a hosted deployment. Ownership of the route and core contracts is reviewed on a recurring
-schedule against the expected configuration.
+Messages on the Hyperlane routes are verified by Hyperlane's default multisig security
+module. Lumia additionally operates its own validator and relayer for these routes rather
+than depending solely on hosted agents.
+
+Ownership and configuration of the route and core contracts are re-checked against the
+expected values on a recurring schedule.
 
 ## Source code
 
