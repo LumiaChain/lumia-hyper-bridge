@@ -95,8 +95,12 @@ Release notes are labelled by the part of the bridge a change affects.
 
 ## Reporting an issue
 
-Open an issue using one of the templates. For anything security-sensitive, do not open a
-public issue — write to the Lumia team directly.
+Open an issue using one of the templates.
+
+**Do not report a security problem in a public issue.** Use GitHub's private vulnerability
+reporting instead: open the **Security** tab of this repository and choose **Report a
+vulnerability**. The report is visible only to the maintainers, and you can keep talking to
+us in the same private thread until it is resolved.
 
 ## License
 
